@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rode Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              white: "#ffffff",
+              black: "#010101",
+              brown: "#ad9970",
+              gray: "#828282",
+              lightGray: "#f8f9fa",
+              footerColor: "#484848",
+            },
+            screens: {
+              tablet: "768px",
+
+              laptop: "1024px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <div class="bg-white w-full fixed z-10">
+      <div class="mx-[20px] py-[10px] flex justify-between items-center">
+        <i class="fa fa-bars laptop:hidden"></i>
+        <img class="h-[25px]" src="/assets/RODE_Logo_87x51_RGB.svg" alt="" />
+        <div class="hidden laptop:flex laptop:gap-x-[30px] text-[16px]">
+          <a href="">PRODUCTS</a>
+          <a href="">USER GUIDES</a>
+          <a href="">SOLUTIONS</a>
+          <a href="">APPAREL</a>
+          <a href="">SUPPORT</a>
+        </div>
+        <i class="fa fa-search laptop:text-[20px]" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="flex flex-col">
+      <div class="laptop:flex">
+        <img
+          class="mt-[50px]"
+          src="/assets/rode-rodecaster-pro-II-home-page-800x700-rgb.jpg"
+          alt=""
+        />
+        <div
+          class="bg-black laptop:mt-[50px] laptop:flex laptop:flex-col laptop:justify-center"
+        >
+          <div class="mx-[20px] pt-[20px] pb-[20px]">
+            <img src="/assets/RODECasterProII_PL_PI_01.svg" alt="" />
+            <h3
+              class="text-white text-center mt-[20px] text-[22px] font-medium"
+            >
+              The Revolution Is Here
+            </h3>
+            <p class="text-gray mt-[10px] text-[17px] laptop:text-center">
+              The RØDECaster Pro II is the world's most powerful all-in-one
+              audio solution for streamers, podcasters, musicians, and creators.
+              Take your content to the next level.
+            </p>
+            <div class="mt-[30px] flex justify-center items-center">
+              <p class="text-brown mr-[10px] font-medium">
+                LEARN MORE <i class="fa-solid fa-chevron-right"></i>
+              </p>
+              <button
+                class="text-white font-medium rounded-[25px] bg-brown border-[1px] border-brown px-[20px] py-[5px] hover:bg-white hover:text-brown hover:border-[1px] hover:border-brown"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-[20px] mx-[20px] laptop:m-[0px]">
+        <div class="laptop:relative">
+          <img
+            class="hidden laptop:flex"
+            src="/assets/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg"
+            alt=""
+          />
+
+          <div
+            class="my-[20px] mx-[20px] laptop:m-[0px] laptop:w-1/3 laptop:mt-[100px] laptop:absolute laptop:top-[50px] laptop:ml-[15%]"
+          >
+            <img src="/assets/NTH-100_PL_P_RGB_01.svg" alt="" />
+            <h3 class="text-center mt-[20px] text-[25px] font-medium">
+              Your Search For The Perfect Headphones Is Over
+            </h3>
+            <p class="text-gray mt-[10px] text-[17px] laptop:text-center">
+              Experience sound like never before with the NTH-100s. Exceptional
+              sonic performance, superior comfort and iconic looks that inspires
+              creativity.
+            </p>
+            <div class="mt-[30px] mb-[20px] flex justify-center items-center">
+              <p class="text-brown mr-[10px] font-medium">
+                LEARN MORE <i class="fa-solid fa-chevron-right"></i>
+              </p>
+              <button
+                class="text-white font-medium rounded-[25px] border-[1px] border-brown bg-brown px-[20px] py-[5px] hover:bg-white hover:text-brown hover:border-[1px] hover:border-brown"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <!-- <div class="relative"> -->
+        <img
+          class="laptop:hidden"
+          src="/assets/rode-nt-usb-webheader-v7-800x700-rgb.jpg"
+          alt=""
+        />
+        <img
+          class="hidden laptop:flex"
+          src="/assets/rode-nt-usb-webheader-v7-1920x700-rgb.jpg"
+          alt=""
+        />
+        <div
+          class="my-[20px] mx-[20px] laptop:m-[0px] laptop:w-1/3 laptop:mt-[100px] laptop:absolute laptop:top-[50px] laptop:ml-[53%] laptop:float-right"
+        >
+          <img src="/assets/NT-USB_PL_P_01.svg" alt="" />
+          <h3 class="text-center mt-[20px] text-[25px] font-medium">
+            Studio-Quality Recording, Made Simple
+          </h3>
+          <p class="text-gray mt-[10px] text-[17px] laptop:text-center">
+            The NT-USB is a studio-quality USB condenser microphone that offers
+            impeccable audio, elegant looks and premium features, all in an
+            easy-to-use form factor, the NT-USB will have you sounding like a
+            pro in seconds.
+          </p>
+          <div class="mt-[30px] mb-[20px] flex justify-center items-center">
+            <p class="text-brown mr-[10px] font-medium">
+              LEARN MORE <i class="fa-solid fa-chevron-right"></i>
+            </p>
+            <button
+              class="text-white font-medium rounded-[25px] border-[1px] border-brown bg-brown px-[20px] py-[5px] hover:bg-white hover:text-brown hover:border-[1px] hover:border-brown"
+            >
+              BUY NOW
+            </button>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <!-- EXPLORE SECTION -->
+    <div class="mx-[10px]">
+      <h1 class="text-center text-[32px] font-medium text-gray">
+        Explore The RØDE Range
+      </h1>
+      <div class="mt-[20px] grid grid-rows-1 gap-y-[15px] laptop:mx-[17%]">
+        <div
+          class="h-[100px] tablet:h-[150px] laptop:h-[250px] bg-cover bg-center flex justify-center items-center"
+          style="background-image: url(/assets/microPhone.png)"
+        >
+          <h1
+            class="text-white text-[30px] tablet:text-[40px] laptop:text-[60px] font-medium"
+          >
+            MICROPHONES
+          </h1>
+        </div>
+
+        <div
+          class="h-[100px] tablet:h-[150px] laptop:h-[250px] bg-cover bg-center flex justify-center items-center"
+          style="background-image: url(/assets/mixers.jpg)"
+        >
+          <h1
+            class="text-white text-[30px] tablet:text-[40px] laptop:text-[60px] font-medium"
+          >
+            INTERFACES & MIXERS
+          </h1>
+        </div>
+
+        <div
+          class="h-[100px] tablet:h-[150px] laptop:h-[250px] bg-cover bg-center flex justify-center items-center"
+          style="background-image: url(/assets/software.png)"
+        >
+          <h1
+            class="text-white text-[30px] tablet:text-[40px] laptop:text-[60px] font-medium"
+          >
+            SOFTWARE
+          </h1>
+        </div>
+
+        <div
+          class="h-[100px] tablet:h-[150px] laptop:h-[250px] bg-cover bg-center flex justify-center items-center"
+          style="background-image: url(/assets/accessories.png)"
+        >
+          <h1
+            class="text-white text-[30px] tablet:text-[40px] laptop:text-[60px] font-medium"
+          >
+            ACCESSORIES
+          </h1>
+        </div>
+      </div>
+      <h1 class="text-center text-[35px] font-medium text-brown">
+        Latest From The RØDE Blog
+      </h1>
+    </div>
+
+    <!-- BLOG SECTION -->
+    <div class="flex bg-lightGray">
+      <div
+        class="w-full grid gris-rows-1 gap-y-[20px] mx-[10px] my-[20px] tablet:grid-cols-2 tablet:gap-x-[20px] laptop:mx-[17%]"
+      >
+        <div class="bg-white flex flex-col justify-center items-center">
+          <h1 class="text-[30px] font-normal text-center">
+            XLR vs USB Microphones: Which is Best for You?
+          </h1>
+          <img src="/assets/blog1.jpg" alt="" />
+          <p class="text-[17px] font-normal text-center mx-[10px] my-[35px]">
+            We explore the differences between XLR and USB microphones, the
+            advantages of each and which type is best suited to your needs.
+          </p>
+          <button
+            class="mb-[25px] text-white font-medium rounded-[25px] border-[1px] border-brown bg-brown px-[20px] py-[5px] hover:bg-white hover:text-brown hover:border-[1px] hover:border-brown"
+          >
+            LEARN MORE
+          </button>
+        </div>
+
+        <div class="bg-white flex flex-col justify-center items-center">
+          <h1 class="text-[30px] font-normal text-center">
+            The Difference Between Large-Diaphragm and Small-Diaphragm Condenser
+            Microphones
+          </h1>
+          <img src="/assets/blog2.jpeg" alt="" />
+          <p class="text-[17px] font-normal text-center mx-[10px] my-[35px]">
+            We explore the difference between large- and small-diaphragm
+            condenser microphones, and what each is best used for.
+          </p>
+          <button
+            class="mb-[25px] text-white font-medium rounded-[25px] border-[1px] border-brown bg-brown px-[20px] py-[5px] hover:bg-white hover:text-brown hover:border-[1px] hover:border-brown"
+          >
+            LEARN MORE
+          </button>
+        </div>
+
+        <div class="bg-white flex flex-col justify-center items-center">
+          <h1 class="text-[30px] font-normal text-center">
+            What is a Condenser Microphone and When to Use One
+          </h1>
+          <img src="/assets/blog3.jpg" alt="" />
+          <p class="text-[17px] font-normal text-center mx-[10px] my-[35px]">
+            Learn more about the different types of condenser mics, how they
+            work and the best applications for using them.
+          </p>
+          <button
+            class="mb-[25px] text-white font-medium rounded-[25px] border-[1px] border-brown bg-brown px-[20px] py-[5px] hover:bg-white hover:text-brown hover:border-[1px] hover:border-brown"
+          >
+            LEARN MORE
+          </button>
+        </div>
+
+        <div class="bg-white flex flex-col justify-center items-center">
+          <h1 class="text-[30px] font-normal text-center">
+            Firmware Version 1.0.7 for the RØDECaster Pro II is Available Now
+          </h1>
+          <img src="/assets/blog4.jpg" alt="" />
+          <p class="text-[17px] font-normal text-center mx-[10px] my-[35px]">
+            Firmware version 1.0.7 includes key feature additions, such as
+            custom routing for USB and Bluetooth outputs, and more.
+          </p>
+          <button
+            class="mb-[25px] text-white font-medium rounded-[25px] border-[1px] border-brown bg-brown px-[20px] py-[5px] hover:bg-white hover:text-brown hover:border-[1px] hover:border-brown"
+          >
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div
+      class="bg-white laptop:flex laptop:justify-around laptop:mx-[10%] laptop:mt-[50px]"
+    >
+      <div class="mb-[45px] flex justify-center mt-[15px]">
+        <img
+          class="h-[55px] tablet:h-[80px]"
+          src="/assets/RODE_logo_142x85_desktop_light_mode.svg"
+          alt=""
+        />
+      </div>
+
+      <div class="tablet:hidden">
+        <div class="mx-[10px] h-[1px] bg-gray"></div>
+        <div class="mx-[20px] my-[10px] flex justify-between items-center">
+          <p class="text-[20px] font-medium text-footerColor">Products</p>
+          <i
+            class="fa fa-plus text-[20px] font-bold text-footerColor"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+
+      <div class="tablet:hidden">
+        <div class="mx-[10px] h-[1px] bg-gray"></div>
+        <div class="mx-[20px] my-[10px] flex justify-between items-center">
+          <p class="text-[20px] font-medium text-footerColor">Support</p>
+          <i
+            class="fa fa-plus text-[20px] font-bold text-footerColor"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+
+      <div class="tablet:hidden">
+        <div class="mx-[10px] h-[1px] bg-gray"></div>
+        <div class="mx-[20px] my-[10px] flex justify-between items-center">
+          <p class="text-[20px] font-medium text-footerColor">Company</p>
+          <i
+            class="fa fa-plus text-[20px] font-bold text-footerColor"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+
+      <div class="tablet:hidden">
+        <div class="mx-[10px] h-[1px] bg-gray"></div>
+        <div class="mx-[20px] my-[10px] flex justify-between items-center">
+          <p class="text-[20px] font-medium text-footerColor">Account</p>
+          <i
+            class="fa fa-plus text-[20px] font-bold text-footerColor"
+            aria-hidden="true"
+          ></i>
+        </div>
+        <div class="mx-[10px] h-[1px] bg-gray"></div>
+      </div>
+
+      <div
+        class="hidden tablet:flex mx-[20px] tablet:justify-around laptop:gap-x-[25px]"
+      >
+        <div class="flex flex-col gap-y-[10px]">
+          <h2 class="font-medium">Products</h2>
+          <a href="">Microphones</a>
+          <a href="">Headphones</a>
+          <a href="">Interfaces and Mixers</a>
+          <a href="">Accessories</a>
+          <a href="">Software</a>
+          <a href="">Apparel</a>
+        </div>
+
+        <div class="flex flex-col gap-y-[10px]">
+          <h2 class="font-medium">Support</h2>
+          <a href="">Contact RØDE</a>
+          <a href="">Service Centre</a>
+          <a href="">Warranty</a>
+          <a href="">Where to Buy</a>
+        </div>
+
+        <div>
+          <div class="flex flex-col gap-y-[10px]">
+            <h2 class="font-medium">Company</h2>
+            <a href="">About RØDE</a>
+            <a href="">News and Info</a>
+            <a href="">Job Opportunities</a>
+          </div>
+
+          <div class="flex flex-col gap-y-[10px] mt-[15px]">
+            <h2 class="font-medium">Account</h2>
+            <a href="">Manage your Account</a>
+            <a href="">Create Account</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-[25px] flex flex-col justify-center items-center">
+        <h1 class="text-[25px] font-medium text-center">
+          Subscribe to our latest news and offers
+        </h1>
+        <button
+          class="mt-[20px] text-white font-medium rounded-[25px] border-[1px] border-brown bg-brown px-[20px] py-[5px] hover:bg-white hover:text-brown hover:border-[1px] hover:border-brown"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+
+    <div class="mx-[10px] h-[0.5px] bg-gray laptop:mt-[30px]"></div>
+
+    <div class="my-[25px] laptop:mb-[50px]">
+      <div
+        class="flex flex-col justify-center items-center laptop:flex laptop:flex-row laptop:justify-between laptop:mx-[10%]"
+      >
+        <p class="text-[15px]">Privacy Policy | Terms & Conditions</p>
+        <div class="my-[15px] flex gap-x-[25px] tablet:gap-x-[30px]">
+          <i
+            class="fa-brands fa-facebook text-brown text-[20px] tablet:text-[25px]"
+          ></i>
+          <i
+            class="fa-brands fa-twitter text-brown text-[20px] tablet:text-[25px]"
+          ></i>
+          <i
+            class="fa-brands fa-instagram text-brown text-[20px] tablet:text-[25px]"
+          ></i>
+          <i
+            class="fa-brands fa-youtube text-brown text-[20px] tablet:text-[25px]"
+          ></i>
+          <i
+            class="fa-brands fa-tiktok text-brown text-[20px] tablet:text-[25px]"
+          ></i>
+        </div>
+        <p>© 2022 RØDE All Rights Reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
