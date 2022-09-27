@@ -1,6 +1,6 @@
 # Hey, there everyone `Jay Shah` here
 
-## [Live Project Demo](https://rode-clone-sigma.vercel.app/)
+## [Live Project Demo](https://rodee-tailwind.netlify.app/)
 
 <br>
 
